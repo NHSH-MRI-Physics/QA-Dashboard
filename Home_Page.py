@@ -19,6 +19,3 @@ If an scanner issue is required to be reported, please report it via the issue r
 - John Tracey - John.tracey@nhs.scot
 - Jonathan Ashmore - TO BE ADDED
 """)
-
-st.write("DB username:", st.secrets["db_username"])
-st.write("DB password:", st.secrets["db_password"])
