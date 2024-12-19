@@ -18,3 +18,5 @@ credentials = {
 gc = gspread.service_account_from_dict(credentials)
 sh = gc.open("QA Record")
 print(sh.sheet1.get('A1'))
+
+st.write(sh.sheet1.get('A2'))
